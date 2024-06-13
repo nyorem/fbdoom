@@ -62,7 +62,7 @@ rcsid[] = "$Id: hu_stuff.c,v 1.4 1997/02/03 16:47:52 b1 Exp $";
 
 
 
-char*	chat_macros[] =
+const char*	chat_macros[] =
 {
     HUSTR_CHATMACRO0,
     HUSTR_CHATMACRO1,
