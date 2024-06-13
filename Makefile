@@ -36,3 +36,7 @@ link: $(TARGET_OBJS)
 	@$(CC) -ggdb -o doom $(TARGET_OBJS)
 
 doom: link
+
+clean:
+	rm -fv doom
+	rm -fv build/*.o
